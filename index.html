@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas clock</title>
+    <style>
+        body {
+            background: #dddddd;
+        }
+
+        canvas {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border: thin inset #aaa;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas">Canvas not supported</canvas>
+    <img src="#" alt="" class="photo">
+    <div class="buttons">
+        <a href="#" class="snap">Take photo</a>
+    </div>
+    <script src="js/canvas.js"></script>
+</body>
+</html>
